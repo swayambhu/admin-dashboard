@@ -1,0 +1,31 @@
+/** @format */
+
+.link {
+  text-decoration: none;
+  color: #000;
+  margin-top: 20px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.active {
+  background-color: #909192;
+  color: #ffffff;
+}
+
+.icon {
+  margin-right: 7px;
+}
+
+@media (max-width: 800px) {
+  .link {
+    margin-top: 17px;
+    font-size: 22px;
+    padding: 5px;
+  }
+}

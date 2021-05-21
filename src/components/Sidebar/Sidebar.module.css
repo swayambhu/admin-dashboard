@@ -1,0 +1,50 @@
+/** @format */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: auto;
+  padding: 15px;
+  height: 100vh;
+  background-color: #e9eef6;
+}
+.toggle {
+  outline: none;
+  border-color: 1px solid #000000;
+  border-radius: 15px;
+}
+.toggleBtn {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7px;
+  width: 100%;
+  
+}
+
+.list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media (max-width: 400px){
+  .navbar {
+    height: auto;
+  }
+  .visible {
+      display:none;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 12px;
+  }
+
+  .toggleBtn {
+    font-size: 22px;
+    padding: 5px;
+  }
+}
